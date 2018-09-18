@@ -1,0 +1,21 @@
+.member-card {
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+.member-card img {
+    width: 100%;
+}
+
+.card-content {
+    margin: 1rem;
+}
+
+.card-social {
+    text-align: center;
+}
+
+.card-icon {
+    font-size: 2rem;
+    color: #333;
+    padding: 1rem;
+}
