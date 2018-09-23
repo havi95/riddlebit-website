@@ -31,7 +31,7 @@
 }
 
 .header-social {
-    animation: social-appear 2s ease;
+    animation: social-appear 3s ease;
 }
 
 .header-social-button {
@@ -76,7 +76,7 @@
 }
 
 @keyframes social-appear {
-    from {
+    from, 20% {
         transform: translateY(20px);
         opacity: 0;
     }
