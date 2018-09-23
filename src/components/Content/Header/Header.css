@@ -17,7 +17,7 @@
 .header-logo {
     width: 100%;
     height: 200px;
-    animation: logo-appear 2s ease-in;
+    animation: logo-appear 1s ease-in;
 }
 
 .header-title {
@@ -27,11 +27,11 @@
     font-size: 3rem;
     font-weight: 100;
     letter-spacing: 10px;
-    animation: logo-appear 2s ease-in;
+    animation: logo-appear 1s ease-in;
 }
 
 .header-social {
-    animation: social-appear 4s ease;
+    animation: social-appear 2s ease;
 }
 
 .header-social-button {
@@ -44,8 +44,8 @@
     color: #888;
     font-size: 4rem;
     animation:
-        go-down-appear 4s,
-        go-down-bounce infinite 4s ease 4s;
+        go-down-appear 2s,
+        go-down-bounce infinite 4s ease 2s;
 }
 
 .header-go-down:hover {
@@ -65,7 +65,7 @@
 }
 
 @keyframes logo-appear {
-    0%, 50% {
+    from {
         opacity: 0;
         filter: blur(12px);
     }
@@ -76,18 +76,18 @@
 }
 
 @keyframes social-appear {
-    0%, 50% {
+    from {
         transform: translateY(20px);
         opacity: 0;
     }
-    100% {
+    to {
         transform: translateY(0);
         opacity: 1;
     }
 }
 
 @keyframes go-down-appear {
-    0%, 50% {
+    from {
         opacity: 0;
         filter: blur(12px);
     }
@@ -98,6 +98,6 @@
 }
 
 @keyframes go-down-bounce { 
-    0%, 40%, 60%, 80% {transform: translateY(0);}
-    50%, 70% {transform: translateY(10px);}
+    0%, 45%, 55%, 65% {transform: translateY(0);}
+    50%, 60% {transform: translateY(10px);}
 }
