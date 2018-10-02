@@ -3,3 +3,7 @@
 body {
     font-family: 'Heebo', sans-serif;
 }
+
+.App {
+    min-height: 100vh;
+}
