@@ -5,7 +5,13 @@ import OurTeam from './OurTeam/OurTeam';
 const About = () => (
     <div id='about' className='about-content'>
         <h1>About</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quas placeat dolor quibusdam porro praesentium rerum amet vitae. Laborum, mollitia distinctio. Cupiditate nobis culpa perferendis sapiente molestiae aut, officia voluptates, magni modi eius recusandae enim dolores qui nisi, labore cumque magnam. Et voluptate rerum ut eaque nam natus ipsam cum iure? Ducimus itaque tempore deleniti porro, et error perspiciatis sint maxime assumenda quo incidunt accusantium iure. Ut soluta ab necessitatibus similique, ea asperiores autem sint itaque cum aliquid illo maiores quasi molestias voluptatem placeat quas ipsa aut aspernatur reprehenderit nostrum esse minima eveniet consequuntur iure. Sint vitae itaque sapiente neque.</p>
+        <p>
+            We are a video game development company based in Trondheim, Norway.
+            Our current project is a fast-paced first person shooter called "<a href='#games'>Setback</a>", which currently is in a pre-alpha development state.
+            We are aiming for an early access release on Steam sometime in 2019.
+            One of our ideals as a company is to make game development about more than just games.
+            We approach our games as professional software projects, and we have strong ties to the academic sector.
+        </p>
         <OurTeam />
     </div>
 );
