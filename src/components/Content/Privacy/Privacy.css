@@ -1,0 +1,30 @@
+.privacy-content {
+    padding: 4rem;
+}
+
+.privacy-content p {
+    margin-top: 0;
+}
+
+.privacy-content h2 {
+    margin-bottom: 0;
+}
+
+@media (min-width: 1200px) {
+    .privacy-content {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        max-width: 1000px;
+        box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    }
+    .privacy-content h1,h2,h3 {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 730px) {
+    .privacy-content {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
