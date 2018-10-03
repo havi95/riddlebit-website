@@ -1,4 +1,15 @@
-.content {
+.content-wrapper {
     display: flex;
     justify-content: center;
+}
+
+.content-section {
+    padding: 4rem;
+}
+
+@media (max-width: 730px) {
+    .content-section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
