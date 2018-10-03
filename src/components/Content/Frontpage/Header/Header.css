@@ -64,6 +64,12 @@
     }
 }
 
+@media (max-height: 550px) {
+    .header-logo {
+        display: none;
+    }
+}
+
 @keyframes logo-appear {
     from {
         opacity: 0;
