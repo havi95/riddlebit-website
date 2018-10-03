@@ -1,0 +1,30 @@
+footer {
+    width: 100%;
+    background-color: #252525;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    min-width: 200px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column;
+    }
+}

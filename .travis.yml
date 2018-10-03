@@ -12,6 +12,6 @@ deploy:
   skip_cleanup: true
   github_token: $github_token
   local_dir: build
-  fqdn: riddlebit.net
+  fqdn: www.riddlebit.net
   on:
     branch: master
