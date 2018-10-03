@@ -1,0 +1,56 @@
+.consent-content {
+    margin: 2rem;
+    padding: 1rem;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    animation: consent-appear 3s ease;
+    z-index: 1002;
+}
+
+.consent-content p {
+    width: 100%;
+    text-align: center;
+}
+
+.consent-btn {
+    background-color: inherit;
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 100px;
+    color: white;
+    border: none;
+}
+
+.consent-btn:hover {
+    cursor: pointer;
+    background-color: #444;
+}
+
+.consent-ok-btn {
+    background-color: #555555;
+}
+
+@media (max-width: 600px) {
+    .consent-content {
+        width: 100%;
+        margin: 0;
+        align-items: center;
+    }
+}
+
+@keyframes consent-appear {
+    from, 50% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

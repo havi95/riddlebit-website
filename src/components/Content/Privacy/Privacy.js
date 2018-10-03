@@ -12,7 +12,7 @@ const Privacy = () => (
         <p>
             Riddlebit AS (“us”, “we” or “our”) operates the riddlebit.net website
             (hereinafter referred to as the “Service”) and all subdomains of riddlebit.net,
-            e.g. setback.riddlebit.net, to which this Privacy Policy also applies to.
+            e.g. setback.riddlebit.net, to which this Privacy Policy also applies.
         </p>
         <p>
             This page informs you of our policies regarding the collection,
