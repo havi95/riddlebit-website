@@ -35,6 +35,7 @@ class App extends Component {
         this.setState({
             consented: true
         });
+        window.location.reload();
     }
 
     render() {
