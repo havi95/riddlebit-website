@@ -3,11 +3,6 @@ import './Consent.css';
 import { withRouter } from 'react-router-dom';
 
 class Consent extends Component {
-
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div className='consent-content'>
