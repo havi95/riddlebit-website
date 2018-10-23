@@ -1,0 +1,35 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-field {
+    height: 30px;
+    margin-bottom: 1rem;
+}
+
+.message-field {
+    resize: none;
+    margin-bottom: 1rem;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: #252525;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    .button {
+        width: 100%;
+    }
+}

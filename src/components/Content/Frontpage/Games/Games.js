@@ -1,8 +1,7 @@
 import React from 'react';
-import './Games.css';
 
 const Games = () => (
-    <div id='games' className='games-content'>
+    <div id='games' className='content-section'>
         <h1>Games</h1>
         <p>
           We at Riddlebit Software have a vault of concepts for games waiting for their turn to be made. The first of these games, and our focus for the foreseeable future, is Setback.

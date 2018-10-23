@@ -1,9 +1,8 @@
 import React from 'react';
-import './About.css';
 import OurTeam from './OurTeam/OurTeam';
 
 const About = () => (
-    <div id='about' className='about-content'>
+    <div id='about' className='content-section'>
         <h1>About</h1>
         <p>
             We are a video game development company based in Trondheim, Norway.

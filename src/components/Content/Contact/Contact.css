@@ -1,3 +1,13 @@
 .contact-content {
-    padding: 4rem;
+    width: 600px;
+}
+
+.sent-alert {
+    color: green;
+}
+
+@media (max-width: 730px) {
+    .contact-content {
+        width: 100%;
+    }
 }
