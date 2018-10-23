@@ -1,0 +1,9 @@
+.contact-content {
+    width: 600px;
+}
+
+@media (max-width: 730px) {
+    .contact-content {
+        width: 100%;
+    }
+}
