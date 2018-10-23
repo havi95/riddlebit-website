@@ -1,11 +1,53 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Contact.css';
+import ContactForm from './ContactForm/ContactForm';
+import * as emailjs from 'emailjs-com';
 
-const Contact = () => (
-    <div id='contact' className='content-section'>
-        <h1>Contact</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eius repellat quis maxime consequuntur natus tempore esse fugiat ex ratione. Ducimus ullam amet veritatis deserunt et totam est, ratione non culpa a repellendus nihil soluta tempora, numquam quis. Dignissimos officia corrupti eos illo, veritatis ullam dolores nesciunt ipsam temporibus consequatur quia culpa itaque distinctio aliquid reiciendis modi vel deleniti beatae quis, et facere non pariatur. Magni incidunt obcaecati sequi quam veniam dolor placeat molestiae fuga eaque dignissimos, consequatur quas assumenda inventore repellat at voluptatem blanditiis, cumque vitae beatae, rem amet ut expedita eos. Mollitia possimus doloremque quo iusto quaerat ea adipisci fugit vel corrupti recusandae sunt sapiente, reprehenderit excepturi voluptas non laboriosam obcaecati amet. Rem totam illum, tenetur ducimus veritatis ea fuga quisquam blanditiis pariatur molestiae eligendi cupiditate quos. Nobis aliquam eos facilis quaerat, maiores, ut molestiae ab repellendus praesentium quibusdam labore tempore eius! Culpa, fugit officia assumenda, quo tempora fugiat laudantium in cumque nesciunt ea expedita quas voluptatum sapiente blanditiis neque? Reiciendis modi minima beatae veniam, veritatis obcaecati dolor soluta et. Quae facere doloremque libero suscipit consequuntur distinctio repellendus inventore eos dolor ea soluta fugiat provident, vel iusto est molestias consectetur animi aspernatur adipisci. Dignissimos consequatur assumenda recusandae delectus.</p>
-    </div>
-);
+class Contact extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            messageSent: false
+        };
+        this.sendMessage = this.sendMessage.bind(this);
+    }
+
+    sendMessage(name, email, message, clearForm) {
+
+        const params = {
+            name: name,
+            email: email,
+            message: message
+        };
+
+        emailjs.send('mailgun', 'riddlebit_contact', params, process.env.REACT_APP_EMAILJS_USERID)
+        .then((res) => {
+            console.log(res)
+            this.setState({
+                messageSent: true
+            });
+            clearForm();
+        }, (err) => {
+            console.log(err);
+        });
+    }
+
+    render() {
+        return (
+            <div id='contact' className='content-section contact-content'>
+                <h1>Contact</h1>
+                <p>
+                    Do you have a question? Or maybe you just want to give some feedback?<br/>
+                    Feel free to contact us in english or norwegian.
+                </p>
+                {this.state.messageSent &&
+                    <h4 className='sent-alert'>Message was sent</h4>
+                }
+                <ContactForm callback={this.sendMessage} />
+            </div>
+        )
+    }
+}
 
 export default Contact;
