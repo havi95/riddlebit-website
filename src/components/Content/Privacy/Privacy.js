@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Privacy.css';
+import { Link } from 'react-router-dom';
 
 class Privacy extends Component {
 
@@ -127,7 +128,7 @@ class Privacy extends Component {
                 <p>If you have any questions about this Privacy Policy, please contact us:</p>
                 <ul>
                     <li>By email: <a href='mailto:contact@riddlebit.net?subject=Privacy Policy'>contact@riddlebit.net</a></li>
-                    <li>Or by using our contact form</li>
+                    <li>Or by using our <Link to='/contact'>contact form</Link></li>
                 </ul>
 
             </div>

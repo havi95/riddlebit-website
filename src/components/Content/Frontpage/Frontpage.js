@@ -4,7 +4,7 @@ import About from './About/About';
 import Games from './Games/Games';
 
 const Frontpage = () => (
-    <div>
+    <div className='content-width-full'>
         <Header />
         <About />
         <Games />

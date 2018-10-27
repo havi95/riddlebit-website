@@ -7,6 +7,14 @@
     padding: 4rem;
 }
 
+.content-width-md {
+    max-width: 1200px;
+}
+
+.content-width-full {
+    width: 100%;
+}
+
 @media (max-width: 730px) {
     .content-section {
         padding-left: 1rem;
