@@ -2,16 +2,22 @@ import React from 'react';
 import OurTeam from './OurTeam/OurTeam';
 
 const About = () => (
-    <div id='about' className='content-section'>
-        <h1>About</h1>
-        <p>
-            We are a video game development company based in Trondheim, Norway.
-            Our current project is a fast-paced first person shooter called "<a href='#games'>Setback</a>", which is currently in a very early stage of development.
-            We are aiming for a steam release sometime in 2019.
-            Riddlebit Software consists of a crew passionate not only for games, but the engineering they are built on too.
-            We are developers, we are engineers, we are designers, and we have a ton of games we want to make.
-        </p>
-        <OurTeam />
+    <div id='about' className='content-wrapper'>
+        <div className='content-section content-width-md'>
+                <h1>We Make Games</h1>
+                <p>     
+                    Riddlebit Software was founded late in 2017.
+                    But it all really started in February 2018,
+                    when we won two awards at Norwegian Game Awards.
+                    Both awards were for our current project "Setback",
+                    which had only been in development for a month.
+                    That was a big deal for us as a company because it showed we had a
+                    solid proof of concept that we could continue to work on.
+                    Since then, we have attended events such as Torucon and SpillExpo with a multiplayer demo of Setback.
+                    Both of which was a really good experience for us.
+                </p>
+                <OurTeam />
+        </div>
     </div>
 );
 
