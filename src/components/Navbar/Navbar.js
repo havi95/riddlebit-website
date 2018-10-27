@@ -41,7 +41,7 @@ class Navbar extends Component {
                             <span onClick={this.close}><FontAwesomeIcon icon={['fas', 'times']} /></span>
                         </div></li>
                         <li><NavLink onClick={this.close} className='navlink' to='/'><div>Home</div></NavLink></li>
-                        <li><NavLink onClick={this.close} className='navlink' to='/about'><div>About</div></NavLink></li>
+                        <li><NavLink onClick={this.close} className='navlink' to='/about'><div>About Us</div></NavLink></li>
                         <li><NavLink onClick={this.close} className='navlink' to='/games'><div>Games</div></NavLink></li>
                         <li><NavLink onClick={this.close} className='navlink' to='/contact'><div>Contact</div></NavLink></li>
                     </ul>
