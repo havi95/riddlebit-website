@@ -1,0 +1,13 @@
+.project-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+    max-width: 800px;
+}
+
+@media (max-width: 800px) {
+    .project-cards {
+        grid-template-columns: 1fr;
+    }
+}

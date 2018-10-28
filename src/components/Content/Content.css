@@ -5,19 +5,30 @@
 
 .content-section {
     padding: 4rem;
-}
-
-.content-width-md {
-    max-width: 1200px;
-}
-
-.content-width-full {
-    width: 100%;
+    min-height: 600px;
 }
 
 @media (max-width: 730px) {
     .content-section {
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+}
+
+.content-width-sm {
+    max-width: 800px;
+}
+
+.content-width-md {
+    width: 100%;
+}
+
+.content-width-full {
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .content-width-md {
+        width: 1200px;
     }
 }
