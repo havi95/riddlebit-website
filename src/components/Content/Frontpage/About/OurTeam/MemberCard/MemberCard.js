@@ -20,15 +20,15 @@ class MemberCard extends Component {
         return (
             <div className='member-card'>
                 {this.renderPicture()}
-                <div className="card-content">
+                <div className="member-card-content">
                     <h3>{this.props.name}</h3>
                     <p>{this.props.description}</p>
-                    <div className="card-social">
+                    <div className="member-card-social">
                         {this.props.twitter && (
-                            <a href={this.props.twitter}><FontAwesomeIcon className='card-icon' icon={['fab', 'twitter']} /></a>
+                            <a href={this.props.twitter}><FontAwesomeIcon className='member-card-icon' icon={['fab', 'twitter']} /></a>
                         )}
                         {this.props.mail && (
-                            <a href={'mailto:'+this.props.mail}><FontAwesomeIcon className='card-icon' icon={['fa', 'envelope']} /></a>
+                            <a href={'mailto:'+this.props.mail}><FontAwesomeIcon className='member-card-icon' icon={['fa', 'envelope']} /></a>
                         )}
                     </div>
                 </div>

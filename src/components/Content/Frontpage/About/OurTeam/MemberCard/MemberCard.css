@@ -7,20 +7,20 @@
     width: 100%;
 }
 
-.card-content {
+.member-card-content {
     margin: 1rem;
 }
 
-.card-content p {
+.member-card-content p {
     color: #444;
     font-weight: 300;
 }
 
-.card-social {
+.member-card-social {
     text-align: center;
 }
 
-.card-icon {
+.member-card-icon {
     font-size: 2rem;
     color: #333;
     padding: 1rem;
