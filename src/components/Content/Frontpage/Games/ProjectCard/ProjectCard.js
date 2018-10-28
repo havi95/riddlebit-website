@@ -29,8 +29,20 @@ class MemberCard extends Component {
             };
         }
 
+        let classes = ['project-card'];
+        let size = this.props.size;
+        if (size == 'small') {
+            classes.push('project-card-small')
+        } else if (size == 'medium') {
+            classes.push('project-card-medium');
+        } else if (size == 'large') {
+            classes.push('project-card-large');
+        }
+
+        console.log(classes);
+
         return (
-            <div className={['project-card', large ? 'project-card-lg' : ''].join(' ')} style={style}>
+            <div className={classes.join(' ')} style={style}>
                 <div className='project-card-content'>
                     <h2>{this.props.title}</h2>
                     <span className={classified ? 'project-classified' : ''} >{this.props.description}</span>

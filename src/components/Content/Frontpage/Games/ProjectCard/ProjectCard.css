@@ -14,10 +14,6 @@
     transform: scale(1.05);
 }
 
-.project-card-lg {
-    grid-column: 1 / -1;
-}
-
 .project-card-content {
     position: relative;
     margin: 1rem;
@@ -40,4 +36,21 @@
 
 .project-classified {
     color: rgb(130, 55, 55);
+}
+
+.project-card-small {
+}
+
+.project-card-medium {
+    grid-column: 1 / -1;
+}
+
+.project-card-large {
+    grid-column: 1 / -1;
+}
+
+@media (min-width: 800px) {
+    .project-card-large .project-card-content {
+        height: 200px;
+    }
 }

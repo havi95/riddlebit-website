@@ -1,9 +1,18 @@
+.games-content {
+    max-width: 800px;
+}
+
+@media (min-width: 800px) {
+    .games-content h1 {
+        text-align: center;
+    }
+}
+
 .project-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     justify-items: center;
-    max-width: 800px;
 }
 
 @media (max-width: 800px) {
