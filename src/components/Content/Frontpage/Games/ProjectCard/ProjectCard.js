@@ -5,11 +5,6 @@ class MemberCard extends Component {
 
     render() {
 
-        let large = false;
-        if (this.props.large) {
-            large = this.props.large;
-        }
-
         let status = '';
         if (this.props.status) {
             status = 'Status: ' + this.props.status;
@@ -21,7 +16,7 @@ class MemberCard extends Component {
         }
 
         let imageURL = this.props.imageURL;
-        let useImage = imageURL != undefined;
+        let useImage = imageURL !== undefined;
         let style;
         if (useImage) {
             style = {
@@ -31,15 +26,13 @@ class MemberCard extends Component {
 
         let classes = ['project-card'];
         let size = this.props.size;
-        if (size == 'small') {
+        if (size === 'small') {
             classes.push('project-card-small')
-        } else if (size == 'medium') {
+        } else if (size === 'medium') {
             classes.push('project-card-medium');
-        } else if (size == 'large') {
+        } else if (size === 'large') {
             classes.push('project-card-large');
         }
-
-        console.log(classes);
 
         return (
             <div className={classes.join(' ')} style={style}>
