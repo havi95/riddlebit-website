@@ -36,6 +36,7 @@ class Content extends Component {
                 <Route exact path='/' component={Frontpage} />
                 <Route exact path='/about' component={Frontpage} />
                 <Route exact path='/games' component={Frontpage} />
+                <Route exact path='/our-team' component={Frontpage} />
                 <Route exact path='/contact' component={Contact} />
                 <Route exact path='/privacy' component={Privacy} />
                 <Route component={NotFound} />
