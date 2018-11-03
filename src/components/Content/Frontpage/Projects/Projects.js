@@ -1,11 +1,11 @@
 import React from 'react';
-import './Games.css';
+import './Projects.css';
 import ProjectCard from './ProjectCard/ProjectCard';
 
-const Games = () => (
-    <div id='games' className='content-wrapper'>
-        <div className='content-section content-width-md games-content'>
-            <h1>Games</h1>
+const Projects = () => (
+    <div id='projects' className='content-wrapper'>
+        <div className='content-section content-width-md projects-content'>
+            <h1>Projects</h1>
             <p>
                 These are our current and planned projects. More info will be available here at a later time.<br/>
                 Until then, please visit our <a href='https://www.facebook.com/riddlebit'>facebook page</a>.
@@ -39,4 +39,4 @@ const Games = () => (
     </div>
 );
 
-export default Games;
+export default Projects;
