@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../../logo.svg';
 import './Navbar.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Navbar extends Component {
@@ -31,7 +31,7 @@ class Navbar extends Component {
     render() {
         return (
             <div className={['navbar', this.state.navOpen ? 'navbar-open' : ''].join(' ')}>
-                <a className='navbar-logo' href='/'><img src={logo} alt="logo" /></a>
+                <Link className='navbar-logo' to='/'><img src={logo} alt="logo" /></Link>
                 <nav>
                     <ul className='navlinks'>
                         <li><div className={['nav-toggle', this.state.navOpen ? 'hide-nav-toggle' : 'show-nav-toggle'].join(' ')}>
@@ -44,7 +44,6 @@ class Navbar extends Component {
                         <li><NavLink onClick={this.close} className='navlink' to='/about'><div>About Us</div></NavLink></li>
                         <li><NavLink onClick={this.close} className='navlink' to='/games'><div>Games</div></NavLink></li>
                         <li><NavLink onClick={this.close} className='navlink' to='/our-team'><div>Our Team</div></NavLink></li>
-                        <li><NavLink onClick={this.close} className='navlink' to='/contact'><div>Contact</div></NavLink></li>
                     </ul>
                 </nav>
             </div>
