@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Switch, Route, withRouter } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import './Content.css';
-import Frontpage from './Frontpage/Frontpage';
-import Contact from './Contact/Contact';
-import Privacy from './Privacy/Privacy';
-import NotFound from './NotFound/NotFound';
+import Frontpage from './Frontpage';
+import Contact from './Contact';
+import Privacy from './Privacy';
+import NotFound from './NotFound';
 
-class Content extends Component {
+export default class Content extends Component {
 
     onRouteChange(pathname) {
         let id = pathname.substr(1);
@@ -45,5 +45,3 @@ class Content extends Component {
         )
     }
 }
-
-export default withRouter(Content);

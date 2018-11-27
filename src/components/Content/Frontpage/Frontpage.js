@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './Header/Header';
-import About from './About/About';
-import Projects from './Projects/Projects';
-import OurTeam from './OurTeam/OurTeam';
+import Header from './Header';
+import About from './About';
+import Projects from './Projects';
+import OurTeam from './OurTeam';
 
 const Frontpage = () => (
     <div className='content-width-full'>

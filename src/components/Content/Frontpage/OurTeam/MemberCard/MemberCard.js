@@ -1,40 +1,38 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './MemberCard.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-class MemberCard extends Component {
+const MemberCard = ({name, description, twitter, mail, imageURL}) => {
 
-    renderPicture() {
-        if (this.props.imageURL) {
+    const renderPicture = () => {
+        if (imageURL) {
             return (
-                <img src={this.props.imageURL} alt={[this.props.name, this.props.description].join(' ')} />
+                <img src={imageURL} alt={[name, description].join(' ')} />
             );
         } else {
             return (
-                <img src='https://i.imgur.com/V9QJQSj.png' alt={[this.props.name, this.props.description].join(' ')} />
+                <img src='https://i.imgur.com/V9QJQSj.png' alt={[name, description].join(' ')} />
             );
         }
     }
 
-    render() {
-        return (
-            <div className='member-card'>
-                {this.renderPicture()}
-                <div className="member-card-content">
-                    <h3>{this.props.name}</h3>
-                    <p>{this.props.description}</p>
-                    <div className="member-card-social">
-                        {this.props.twitter && (
-                            <a href={this.props.twitter}><FontAwesomeIcon className='member-card-icon' icon={['fab', 'twitter']} /></a>
-                        )}
-                        {this.props.mail && (
-                            <a href={'mailto:'+this.props.mail}><FontAwesomeIcon className='member-card-icon' icon={['fa', 'envelope']} /></a>
-                        )}
-                    </div>
+    return (
+        <div className='member-card'>
+            {renderPicture()}
+            <div className="member-card-content">
+                <h3>{name}</h3>
+                <p>{description}</p>
+                <div className="member-card-social">
+                    {twitter && (
+                        <a href={twitter}><FontAwesomeIcon className='member-card-icon' icon={['fab', 'twitter']} /></a>
+                    )}
+                    {mail && (
+                        <a href={'mailto:'+mail}><FontAwesomeIcon className='member-card-icon' icon={['fa', 'envelope']} /></a>
+                    )}
                 </div>
             </div>
-        );
-    }
+        </div>
+    );
 }
 
 export default MemberCard;

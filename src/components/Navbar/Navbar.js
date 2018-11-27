@@ -4,7 +4,7 @@ import './Navbar.css';
 import { NavLink, Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-class Navbar extends Component {
+export default class Navbar extends Component {
 
     state = {
         navOpen: false
@@ -50,5 +50,3 @@ class Navbar extends Component {
         )
     }
 }
-
-export default Navbar;

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import ProjectCard from './ProjectCard/ProjectCard';
+import ProjectCard from './ProjectCard';
 
 const Projects = () => (
     <div id='projects' className='content-wrapper'>

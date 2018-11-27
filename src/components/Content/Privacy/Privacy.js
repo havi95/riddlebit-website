@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import './Privacy.css';
 import { Link } from 'react-router-dom';
 
-class Privacy extends Component {
+export default class Privacy extends Component {
 
     componentDidMount() {
-        window.scrollTo(0, 0);  
+        window.scrollTo(0, 0);
     }
 
     render() {
@@ -135,5 +135,3 @@ class Privacy extends Component {
         )
     }
 }
-
-export default Privacy;
