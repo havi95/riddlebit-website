@@ -1,9 +1,9 @@
-.games-content {
+.projects-content {
     max-width: 800px;
 }
 
 @media (min-width: 800px) {
-    .games-content h1 {
+    .projects-content h1 {
         text-align: center;
     }
 }

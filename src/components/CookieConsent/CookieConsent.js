@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import './Consent.css';
-import { withRouter } from 'react-router-dom';
+import './CookieConsent.css';
 
-class Consent extends Component {
+export default class Consent extends Component {
     render() {
         return (
             <div className='consent-content'>
@@ -18,5 +17,3 @@ class Consent extends Component {
         )
     }
 }
-
-export default withRouter(Consent);

@@ -3,7 +3,7 @@ import './Contact.css';
 import ContactForm from './ContactForm/ContactForm';
 import * as emailjs from 'emailjs-com';
 
-class Contact extends Component {
+export default class Contact extends Component {
 
     constructor(props) {
         super(props);
@@ -49,5 +49,3 @@ class Contact extends Component {
         )
     }
 }
-
-export default Contact;

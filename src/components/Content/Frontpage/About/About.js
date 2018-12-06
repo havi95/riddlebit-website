@@ -1,5 +1,4 @@
 import React from 'react';
-import OurTeam from './OurTeam/OurTeam';
 
 const About = () => (
     <div id='about' className='content-wrapper'>
@@ -16,7 +15,6 @@ const About = () => (
                     Since then, we have attended events such as Torucon and SpillExpo with a multiplayer demo of Setback.
                     Both of which was a really good experience for us.
                 </p>
-                <OurTeam />
         </div>
     </div>
 );

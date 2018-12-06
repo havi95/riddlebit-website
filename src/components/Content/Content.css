@@ -5,7 +5,7 @@
 
 .content-section {
     padding: 4rem;
-    min-height: 600px;
+    padding-bottom: 0;
 }
 
 .content-section h1 {

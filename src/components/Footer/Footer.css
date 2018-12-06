@@ -1,11 +1,18 @@
 footer {
-    width: 100%;
-    background-color: #252525;
-    height: auto;
+    max-width: 100%;
     color: white;
-    display: flex;
-    justify-content: center;
     font-weight: 100;
+    background-color: #252525;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
 }
 
 footer div {
@@ -24,8 +31,8 @@ footer div {
     cursor: pointer;
 }
 
-@media (max-width: 600px) {
-    footer {
-        flex-direction: column;
+@media (max-width: 550px) {
+    .footer {
+        grid-template-columns: 1fr;
     }
 }

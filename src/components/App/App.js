@@ -3,10 +3,10 @@ import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import { CookiesProvider, Cookies, withCookies } from 'react-cookie';
 import { instanceOf } from 'prop-types';
-import Navbar from '../Navbar/Navbar';
-import Content from '../Content/Content';
-import Footer from '../Footer/Footer';
-import Consent from '../Content/Privacy/Consent/Consent';
+import Navbar from '../Navbar';
+import Content from '../Content';
+import Footer from '../Footer';
+import CookieConsent from '../CookieConsent';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope, faAngleDown, faChevronDown, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -48,7 +48,7 @@ class App extends Component {
                 <Content />
                 <Footer />
                 {!this.state.consented &&
-                    <Consent consent={this.consent}/>
+                    <CookieConsent consent={this.consent} />
                 }
             </div>
             </BrowserRouter>

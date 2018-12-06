@@ -1,5 +1,5 @@
 import React from 'react';
-import MemberCard from './MemberCard/MemberCard';
+import MemberCard from './MemberCard';
 import './OurTeam.css';
 
 const OurTeam = () => (
