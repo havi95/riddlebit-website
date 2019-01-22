@@ -14,6 +14,11 @@ const Header = () => {
             <div id='header' className="header">
                 <div className="header-main-group">
                     <img src={logo} className='header-logo' alt="logo" />
+                    <div className="header-line">
+                        <svg>
+                            <line x1="0" x2="100%" y1="0" y2="0"></line>
+                        </svg>
+                    </div>
                     <div className='header-title'>RIDDLEBIT SOFTWARE</div>
                     <div className='header-social'>
                         <a href='https://twitter.com/RiddlebitSW'><FontAwesomeIcon className='header-social-button' icon={['fab', 'twitter']} /></a>
