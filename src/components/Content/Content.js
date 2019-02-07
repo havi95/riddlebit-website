@@ -39,6 +39,7 @@ export default class Content extends Component {
                 <Route exact path='/our-team' component={Frontpage} />
                 <Route exact path='/contact' component={Contact} />
                 <Route exact path='/privacy' component={Privacy} />
+                <Route exact path='/partners' component={Frontpage} />
                 <Route component={NotFound} />
             </Switch>
             </div>

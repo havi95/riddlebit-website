@@ -44,6 +44,7 @@ export default class Navbar extends Component {
                         <li><NavLink onClick={this.close} className='navlink' to='/about'><div>About Us</div></NavLink></li>
                         <li><NavLink onClick={this.close} className='navlink' to='/projects'><div>Projects</div></NavLink></li>
                         <li><NavLink onClick={this.close} className='navlink' to='/our-team'><div>Our Team</div></NavLink></li>
+                        <li><NavLink onClick={this.close} className='navlink' to='/partners'><div>Partners</div></NavLink></li>
                     </ul>
                 </nav>
             </div>

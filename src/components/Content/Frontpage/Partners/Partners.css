@@ -1,0 +1,21 @@
+.partners-content {
+    max-width: 800px;
+    padding-bottom: 2rem;
+}
+
+.partner-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+@media (max-width: 800px) {
+    .partner-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+.partner-image {
+    width: 300px;
+}

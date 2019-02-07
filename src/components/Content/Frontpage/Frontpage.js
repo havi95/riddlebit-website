@@ -3,6 +3,7 @@ import Header from './Header';
 import About from './About';
 import Projects from './Projects';
 import OurTeam from './OurTeam';
+import Partners from './Partners';
 
 const Frontpage = () => (
     <div className='content-width-full'>
@@ -10,6 +11,7 @@ const Frontpage = () => (
         <About />
         <Projects />
         <OurTeam />
+        <Partners />
     </div>
 );
 
