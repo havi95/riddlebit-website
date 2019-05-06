@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProjectCard.css';
 
-const ProjectCard = ({title, description, size, classified, status, imageURL}) => {
+const ProjectCard = ({title, description, size, classified, status, imageURL, link}) => {
 
     if (status) {
         status = 'Status: ' + status;
@@ -25,13 +25,13 @@ const ProjectCard = ({title, description, size, classified, status, imageURL}) =
     }
 
     return (
-        <div className={classes.join(' ')} style={style}>
+        <a href={link} className={classes.join(' ')} style={style}>
             <div className='project-card-content'>
                 <h2>{title}</h2>
                 <span className={classified ? 'project-classified' : ''} >{description}</span>
                 <span className='project-card-status'>{status}</span>
             </div>
-        </div>
+        </a>
     );
 }
 

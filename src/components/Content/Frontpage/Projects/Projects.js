@@ -14,6 +14,7 @@ const Projects = () => (
                 <ProjectCard
                     title='Setback'
                     description='A fast-paced online shooter'
+                    link='https://setback.riddlebit.net'
                     size='large'
                     status='In Development'
                     imageURL='https://lh3.googleusercontent.com/5m1EyyvBjszK29tT65kEHqIeJky0184eDFnr2Ul3h6Vz6UtFJ8M7W9DGDBaou0E13j1izZl0835VApEuk6jd8RK95o6tHAksziueQJmvIalTRiZ1kHeqJn_V7K6y4uUykdjS455VBkKfujpb_pbZ7UHJuaJ4jcFCN4OGmpMlngbAcXpN2cNHVgjlB2gxWCTzpkn8duXhbq6o_NA9KuEkmDiUnNmvc_whl8ZoQpqv97SKePM0blh1zBDlotANzaH93LbTAxEGw5HPYRmNie8P3uSb8dfWKJeQPb3sPJIOOD5uRbvHWQADo_WoBlO24dCbxQA3xjqTLhfNF1nnG3Qe3y1lpSYhzgXPJq1yoHNIcR5NETlyFG_kzIcAhRmcdZvkq3Ny2ZCRlTgZ07NMYWG8Sj87MjSYs-Ve0vUYW1a0GLt-qJYJc3IHm1Z0eqdDTQ-0WRHzA8qB_OvTXWQ9s8mJcDXMl3qPy_2vVRoyENCqJLVjIp07ry4EM6Z8lk2QPX1_BQ5Xmfc4nLlS8fQVklamPuNWHFvVlfcacpxuQk4ETTYv02FNImB5QzM9xSmHENJkO7G8oslHnVX68eYJINkZOx8wCM0pl9ZBoQwXvskg0skuCzRxvNWPZPf-GzRulYonkItkfJiiQ31k2bdAzEOXlXVmeFhDUos=w683-h346-no'
