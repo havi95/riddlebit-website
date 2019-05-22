@@ -6,7 +6,6 @@ import { instanceOf } from 'prop-types';
 import Navbar from '../Navbar';
 import Content from '../Content';
 import Footer from '../Footer';
-import CookieConsent from '../CookieConsent';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope, faAngleDown, faChevronDown, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -47,9 +46,6 @@ class App extends Component {
                 <Navbar />
                 <Content />
                 <Footer />
-                {!this.state.consented &&
-                    <CookieConsent consent={this.consent} />
-                }
             </div>
             </BrowserRouter>
             </CookiesProvider>
