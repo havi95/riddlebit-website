@@ -1,0 +1,27 @@
+import { Component } from "react";
+import { withRouter } from "react-router-dom";
+import analytics from "../../analytics";
+
+class AnalyticsRouter extends Component {
+
+  componentDidUpdate() {
+    analytics.initialize();
+    analytics.pageview(this.props.location.pathname);
+  }
+
+  componentWillUpdate({location, history}) {
+    if (location.pathname === this.props.location.pathname) {
+      return;
+    }
+    if (history.action === 'PUSH') {
+      analytics.pageview(location.pathname);
+    }
+  }
+
+  render() {
+    return null;
+  }
+
+}
+
+export default withRouter(AnalyticsRouter);

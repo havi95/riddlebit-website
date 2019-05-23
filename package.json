@@ -10,8 +10,8 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "emailjs-com": "^2.3.2",
     "react": "^16.8.6",
-    "react-cookie": "^3.1.2",
     "react-dom": "^16.8.6",
+    "react-ga": "^2.5.7",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0"
   },
