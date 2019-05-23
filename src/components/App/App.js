@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Navbar from '../Navbar';
 import Content from '../Content';
 import Footer from '../Footer';
+import AnalyticsRouter from '../AnalyticsRouter/AnalyticsRouter';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope, faAngleDown, faChevronDown, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -13,11 +14,12 @@ library.add(faTwitter, faFacebook, faGithub, faEnvelope, faAngleDown, faChevronD
 const App = () => {
     return (
         <BrowserRouter>
-        <div className="App">
-            <Navbar />
-            <Content />
-            <Footer />
-        </div>
+            <div className="App">
+                <Navbar />
+                <Content />
+                <Footer />
+            </div>
+            <AnalyticsRouter />
         </BrowserRouter>
     )
 }
