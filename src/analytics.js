@@ -5,9 +5,7 @@ const doNotTrack = () => {
     window.doNotTrack === '1' ||
     navigator.doNotTrack === 'yes' ||
     navigator.doNotTrack === '1' ||
-    navigator.msDoNotTrack === '1' ||
-    ('msTrackingProtectionEnabled' in window.external &&
-    window.external.msTrackingProtectionEnabled())
+    navigator.msDoNotTrack === '1'
   );
 }
 
@@ -16,7 +14,7 @@ const initialize = () => {
   if (doNotTrack() || gaInitialized) {
     return;
   }
-  ReactGA.initialize(process.env.REACT_APP_GA_ID);
+  ReactGA.initialize(process.env.REACT_APP_GA_ID, {testMode: process.env.NODE_ENV === 'test'});
   ReactGA.set({anonymizeIp: true});
   gaInitialized = true;
 }
