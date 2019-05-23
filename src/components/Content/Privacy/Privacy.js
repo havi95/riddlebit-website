@@ -38,7 +38,6 @@ export default class Privacy extends Component {
                 <ul>
                     <li>Email address</li>
                     <li>First name</li>
-                    <li>Cookies and Usage Data</li>
                 </ul>
 
                 <h2>Security of Data</h2>
@@ -79,23 +78,13 @@ export default class Privacy extends Component {
 
                 <h2>Google Analytics</h2>
                 <p>
-                    Like millions of other websites, we use Google Analytics to track and report website traffic.
-                    Google Analytics records data such as:
+                    We use Google Analytics, a service which transmits website traffic data to Google servers.
+                    Our instance of Google Analytics does not identify individual users or associate your IP address
+                    with any other data held by Google. Reports provided by Google Analytics are used to help us understand
+                    website traffic and usage.
                 </p>
-                <ul>
-                    <li>What device and browser you’re using</li>
-                    <li>How long you stay for</li>
-                    <li>What pages you navigate to</li>
-                    <li>What website you came from to get here</li>
-                    <li>And more</li>
-                </ul>
                 <p>
-                    All of our activity falls within the bounds
-                    of the <a href='https://www.google.com/analytics/terms/'>Google Analytics Terms of Service</a>.
-                    You can opt-out of having made your activity on the Service available to Google Analytics
-                    by installing the Google Analytics opt-out browser add-on.
-                    For more information on the privacy practices of Google,
-                    please visit the <a href='https://policies.google.com/'>Google Privacy & Terms webpage</a>.
+                    You may opt out of this tracking at any time by activating the "Do Not Track" setting in your browser.
                 </p>
 
                 <h2>Links to Other Sites</h2>
