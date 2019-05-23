@@ -4,15 +4,16 @@ import analytics from "../../analytics";
 
 class AnalyticsRouter extends Component {
 
-  componentDidUpdate() {
+  componentDidMount() {
     analytics.initialize();
     analytics.pageview(this.props.location.pathname);
   }
 
-  componentWillUpdate({location, history}) {
+  componentWillUpdate({ location, history }) {
     if (location.pathname === this.props.location.pathname) {
       return;
     }
+
     if (history.action === 'PUSH') {
       analytics.pageview(location.pathname);
     }
@@ -21,7 +22,6 @@ class AnalyticsRouter extends Component {
   render() {
     return null;
   }
-
 }
 
 export default withRouter(AnalyticsRouter);
