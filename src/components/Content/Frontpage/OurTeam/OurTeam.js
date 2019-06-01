@@ -36,18 +36,6 @@ const OurTeam = () => (
                 mail='lars@riddlebit.net'
                 imageURL='https://lh3.googleusercontent.com/p0C-KyJ1kHLBc5j2GPZcDYyUn6k7qji-TbKROXXMjr7MeIQC94Xr7oou8RzOAs-61DCp8FgpGxp_F_wbz81K7eN13MqwKcesqwGqKEEzN-o1xLHZ4n1H1OtPPX2gBdgtdZOrWmAOHGC3fD-s7jnb-XzFJhoOVQWKV0SB5T4Vqfn1hgvnpcDiry-IDE2oZ2jKnOZ_A2yL5bx6FsKAFCMbFB34MXU0ASYl9U5SS1u3yqR6-UovLmHs1gGyr0ZDTrWtiwt8K0qpb4tJf5aO-j0bBFI-9pCv5gBQ3vG9husSTtruAHsZKlHW0bl5lCGV01JstvmU0v0QCuTogsCe55HX8vec6hvVzRF3ws8J97D8MvuW0FJSM29S3s_u4RO_GyNHSU2sA0F35THfkwfCCDLYn0xGnrsZkLU0NqDVu6USYucY3HzDhM9T8sGJiWxzsl_j0_RaswDmrHUXnx6l6JYfVgMYKdJ2rLI0AxCdKpSjv5dWbtcpm-Av_gHjgHAIGWeiKDIuh2tizzKDo2GCOz48XQYVTiMknkrxlUcy5m38yAMa_Fb-ZaUFawBA5LBsrlK_h9ANDr6yQiIzJgjVQfsyMkV-m7kkQOl5Q7f6cRrxM1njZPlepa_olTOFOOkDUvpP9sEtHhkMf8V9UjjpcnzUEKQd=s500-no'
             />
-            <MemberCard
-                name='Thomas Moe'
-                description='Setback Artist'
-                mail='moe@riddlebit.net'
-                imageURL='https://lh3.googleusercontent.com/xXpqlsNK8HElDACejWmkXE1-qxa8mzPtPoKbrAPC67f8rtlJAhlTaEfRzyFmZGm2g1PAlh5d-wbQK7PsM0qVLvMzioNINyoTWBquZuB_6Z_RNAf9x-R5u5QViwwuUuThHYmFpnxFhQcuJIu79cxzUJirAX4NyWztEvBhlXEKzwsytUpb8yGf0gw8Jnp8x8cNS9u76oG4oEgMoQK8BONk2YqL36jgG9EShKxL1Gf4fN6NuaYYSG9uCQIWvC0Bd1EWyEZ5wgjT0L6sJ7ZwfmXO3HdJMJskSnZE8A8JpcIp-BAmVn9K7Ee5OtzAAj-rCcLz6bOeVNAHFpUtbnhpJGqZcozsotFMjwJzIpvt8tO88A8UjgiXtHQ9LR6u-Qs4tkguxo57RbM6muEgyzPxDVs4GR6CdfQx8Ui6Y6BVK1aDD09wMrxoQxMT2EwSNHT361kv_U1-Jb84oGxGWBiOCNBFLLRCXwvghh0fsoEKDmD4SZmuBaSW1SC1r0H4wGeRSfg-u-RpsVzPcBwagA-R3cLQE8eAxt6Arkrsy1VIhZAs4zN8dDVbis-VaTJ-XAAVqpj2H_-eN6PXORpjN0-1AQVFig7EibPTpkDbqFMuU9N8hHYgc8ImjYC-EE6zDLFfxwXMvU2eDdl0Jqc6wAc1modirzT5=s500-no'
-            />
-            <MemberCard
-                name='Thomas Dalstein'
-                description='Setback Artist'
-                mail='dalstein@riddlebit.net'
-                imageURL='https://lh3.googleusercontent.com/VecOckfQCiY_b2DX1A9_YmklcIOMEZCKZURetbOGAED6zqsl9UecVZGFkKuenESulBNELUDO4n80twMyfGMYhgkTj5Xm8OeiDaPvUOw6BLm6qYwNOcWacs8EQv3zrFwFDrLbehHsrqrJquODuX_-W3ej50ShahDWR5fVVPOpM1iWT4LwD0H6v1F8jpH912e_saqDgkZ4tAkQMUo_SVBxKKxv9LdQBBbuM8Rx-O7sTuby3hu9q4jPjlV95HHZVz_posJF2vlFsQd5b-z2i7dSZkBur8pOjNGB60lT6LX-QCRwNutpf6htGwD0sdlF720DrAqG3DduTxQzTpUv6ZeTlYJ1a6_ivmxMIkWG5Y2JSjMsUbO0H_8RxOP3xlFPggCvl4-buXa3zNAp3Yr_t-Rq1V779dg4NEqeicOQWdjMR7yq8nVz_-Zbq5j5l4BgwuP3buo2CKpKRD9hcYHAoCKQ30fr5a_sfD-HMLWBCO8nY1JXaFDRjuT-_uIh2RnIKwqKG5baVxvk4tpnHtx2dbZjUEsNQU4AOWrcaa29LMzn5elU1RtLLdF2501tb5FN552ZPr-dguP-a-2k6Em-ntdn8x-rg4uocuoNJT98kKfaf9VrYnv_Yicn6HSqwGGZkGMhqZ0UOyrj3PiXjbuT8cmVauNf=s500-no'
-            />
         </div>
     </div>
 );
