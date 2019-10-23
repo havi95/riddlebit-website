@@ -35,7 +35,7 @@ const OurTeam = () => (
                     name="Lars Olav Muri"
                     description="Chairman & Accountant"
                     mail="lars@riddlebit.net"
-                    imageURL="https://i.imgur.com/T5PvwnK.png"
+                    imageURL="https://i.imgur.com/xh71xg3.png"
                 />
                 <MemberCard
                     name="You?"

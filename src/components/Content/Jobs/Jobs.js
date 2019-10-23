@@ -9,7 +9,9 @@ export default class Jobs extends Component {
         <h1>Jobs at Riddlebit</h1>
         <h2>Game Artist</h2>
         <p>
-          We need kick-ass graphics to bring our current game project further! You have the opportunity to be a core member of our team, focusing on design and visual expression of the games we make. As an artist you are expected to be able to cooperate and contribute to our vision.
+          We need kick-ass graphics to bring our current game project to the next level!
+          You have the opportunity to be a core member of our team, focusing on design and visual expression of the games we make.
+          As an artist you are expected to be able to cooperate and contribute to our vision.
         </p>
         
         <h3>We are looking for people that are</h3>
@@ -36,7 +38,7 @@ export default class Jobs extends Component {
         <h4>When applying please provide</h4>
         <ul>
           <li>Background & motivation</li>
-          <li>Portofolio / demonstration of previous work</li>
+          <li>Portfolio / demonstration of previous work</li>
         </ul>
       </div>
     )
