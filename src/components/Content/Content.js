@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import './Content.css';
 import Frontpage from './Frontpage';
 import Contact from './Contact';
+import Jobs from './Jobs';
 import Privacy from './Privacy';
 import NotFound from './NotFound';
 
@@ -38,6 +39,7 @@ export default class Content extends Component {
                 <Route exact path='/projects' component={Frontpage} />
                 <Route exact path='/our-team' component={Frontpage} />
                 <Route exact path='/contact' component={Contact} />
+                <Route exact path='/jobs' component={Jobs} />
                 <Route exact path='/privacy' component={Privacy} />
                 <Route exact path='/partners' component={Frontpage} />
                 <Route component={NotFound} />

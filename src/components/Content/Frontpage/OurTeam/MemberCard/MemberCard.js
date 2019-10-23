@@ -2,7 +2,7 @@ import React from 'react';
 import './MemberCard.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const MemberCard = ({name, description, twitter, mail, imageURL}) => {
+const MemberCard = ({name, description, twitter, mail, imageURL, more}) => {
 
     const renderPicture = () => {
         if (imageURL) {
@@ -28,6 +28,9 @@ const MemberCard = ({name, description, twitter, mail, imageURL}) => {
                     )}
                     {mail && (
                         <a href={'mailto:'+mail}><FontAwesomeIcon className='member-card-icon' icon={['fa', 'envelope']} /></a>
+                    )}
+                    {more && (
+                        <a href={more}><FontAwesomeIcon className='member-card-icon' icon={['fa', 'search']} /></a>
                     )}
                 </div>
             </div>

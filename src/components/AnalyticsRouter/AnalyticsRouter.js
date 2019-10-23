@@ -9,7 +9,7 @@ class AnalyticsRouter extends Component {
     analytics.pageview(this.props.location.pathname);
   }
 
-  componentWillUpdate({ location, history }) {
+  componentDidUpdate({location, history}) {
     if (location.pathname === this.props.location.pathname) {
       return;
     }

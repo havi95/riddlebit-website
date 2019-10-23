@@ -1,0 +1,12 @@
+.jobs-content {
+  width: 800px;
+  margin-bottom: 2rem;
+}
+
+.jobs-content h2,h3,h4 {
+  margin-bottom: 0;
+}
+
+.jobs-content ul {
+  margin-top: 0;
+}
