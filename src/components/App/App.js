@@ -7,9 +7,9 @@ import Footer from '../Footer';
 import AnalyticsRouter from '../AnalyticsRouter/AnalyticsRouter';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faEnvelope, faAngleDown, faChevronDown, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faAngleDown, faChevronDown, faBars, faTimes, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
-library.add(faTwitter, faFacebook, faGithub, faEnvelope, faAngleDown, faChevronDown, faBars, faTimes);
+library.add(faTwitter, faFacebook, faGithub, faEnvelope, faAngleDown, faChevronDown, faBars, faTimes, faSearch);
 
 const App = () => {
     return (
