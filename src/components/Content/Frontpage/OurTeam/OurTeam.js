@@ -15,13 +15,13 @@ const OurTeam = () => (
                 />
                 <MemberCard
                     name="Jonathan Jørgensen"
-                    description="Developer"
+                    description="Head of Research"
                     mail="jonathan@riddlebit.net"
                     imageURL="https://i.imgur.com/rvvHpBK.png"
                 />
                 <MemberCard
                     name="Vegard Farstad"
-                    description="Developer"
+                    description="Community Manager"
                     mail="vegard@riddlebit.net"
                     imageURL="https://i.imgur.com/PQ5CVcZ.png"
                 />
@@ -33,15 +33,14 @@ const OurTeam = () => (
                 />
                 <MemberCard
                     name="Lars Olav Muri"
-                    description="Chairman & Accountant"
+                    description="CEO"
                     mail="lars@riddlebit.net"
                     imageURL="https://i.imgur.com/xh71xg3.png"
                 />
                 <MemberCard
-                    name="You?"
+                    name="Mildrid Johnsen"
                     description="Artist"
                     imageURL="https://i.imgur.com/68Koea5.png"
-                    more="/jobs"
                 />
             </div>
         </div>
