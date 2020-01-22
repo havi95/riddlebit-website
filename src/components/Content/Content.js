@@ -39,7 +39,7 @@ export default class Content extends Component {
                 <Route exact path='/projects' component={Frontpage} />
                 <Route exact path='/our-team' component={Frontpage} />
                 <Route exact path='/contact' component={Contact} />
-                <Route exact path='/jobs' component={Jobs} />
+                {/* <Route exact path='/jobs' component={Jobs} /> */}
                 <Route exact path='/privacy' component={Privacy} />
                 <Route exact path='/partners' component={Frontpage} />
                 <Route component={NotFound} />
