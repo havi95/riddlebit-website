@@ -13,7 +13,7 @@ const Footer = () => (
                 </a>
             </div>
             <div>
-                <Link className='footer-link' to='/contact'>Contact Us</Link>
+                <a className='footer-link' href='mailto:contact@riddlebit.net'>Contact</a>
             </div>
             <div>
                 <Link className='footer-link' to='/privacy'>Privacy Policy</Link>

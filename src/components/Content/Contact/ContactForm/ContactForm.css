@@ -22,10 +22,11 @@
 .button {
     width: 100px;
     height: 30px;
-    background-color: #252525;
+    background-color: grey;
+    /* background-color: #252525; */
     color: white;
     border: none;
-    cursor: pointer;
+    cursor: not-allowed;
 }
 
 @media (max-width: 400px) {
