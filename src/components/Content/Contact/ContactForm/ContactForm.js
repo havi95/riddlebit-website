@@ -40,19 +40,25 @@ class ContactForm extends Component {
                         value={this.state.name}
                         className='input-field'
                         type='text' name='name' id='name'
-                        placeholder='Your Name' required />
+                        placeholder='Your Name' required
+                        disabled
+                />
                 <label htmlFor='email'>Email</label>
                 <input  onChange={e => this.setState({email: e.target.value})}
                         value={this.state.email}
                         className='input-field'
                         type='email'
                         name='email' id='email'
-                        placeholder='Your Email' required />
+                        placeholder='Your Email' required
+                        disabled
+                />
                 <label htmlFor='message'>Message</label>
                 <textarea   onChange={e => this.setState({message: e.target.value})}
                             value={this.state.message}
                             className='message-field' rows='8'
-                            name='message' id='message' required />
+                            name='message' id='message' required
+                            disabled
+                />
                 <div className="button-group">
                     <input className='button' type='submit' value="Send" />
                 </div>
