@@ -40,6 +40,7 @@ const OurTeam = () => (
                 <MemberCard
                     name="Mildrid Johnsen"
                     description="Artist"
+                    mail="mille@riddlebit.net"
                     imageURL="https://i.imgur.com/68Koea5.png"
                 />
             </div>
