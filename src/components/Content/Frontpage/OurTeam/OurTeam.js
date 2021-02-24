@@ -29,7 +29,7 @@ const OurTeam = () => (
                     name="Håvard Aasmo"
                     description="Developer"
                     mail="havi@riddlebit.net"
-                    imageURL="https://i.imgur.com/8hIhzsC.png"
+                    imageURL="https://imgur.com/LTJEcuH.png"
                 />
                 <MemberCard
                     name="Mildrid Johnsen"
