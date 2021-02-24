@@ -9,8 +9,8 @@ const Frontpage = () => (
     <div className='content-width-full'>
         <Header />
         <About />
-        <Projects />
         <OurTeam />
+        <Projects />
         <Partners />
     </div>
 );
