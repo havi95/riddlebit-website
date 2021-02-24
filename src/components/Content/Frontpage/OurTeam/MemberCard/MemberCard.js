@@ -20,8 +20,10 @@ const MemberCard = ({name, description, twitter, mail, imageURL, more}) => {
         <div className='member-card'>
             {renderPicture()}
             <div className="member-card-content">
-                <h3>{name}</h3>
-                <p>{description}</p>
+                <div className="member-card-info">
+                    <h3>{name}</h3>
+                    <p>{description}</p>
+                </div>
                 <div className="member-card-social">
                     {twitter && (
                         <a href={twitter}><FontAwesomeIcon className='member-card-icon' icon={['fab', 'twitter']} /></a>

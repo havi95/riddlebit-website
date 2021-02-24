@@ -6,10 +6,6 @@ const Projects = () => (
     <div id='projects' className='content-wrapper'>
         <div className='content-section content-width-md projects-content'>
             <h1>Projects</h1>
-            <p>
-                These are our current and planned projects. More info will be available here at a later time.<br/>
-                Until then, please visit our <a href='https://www.facebook.com/riddlebit'>facebook page</a>.
-            </p>
             <div className='project-cards'>
                 <ProjectCard
                     title='Setback'

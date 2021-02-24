@@ -21,8 +21,8 @@ const Header = () => {
                     </div>
                     <div className='header-title'>RIDDLEBIT SOFTWARE</div>
                     <div className='header-social'>
-                        <a href='https://twitter.com/RiddlebitSW'><FontAwesomeIcon className='header-social-button' icon={['fab', 'twitter']} /></a>
-                        <a href='https://www.facebook.com/riddlebit/'><FontAwesomeIcon className='header-social-button' icon={['fab', 'facebook']} /></a>
+                        <a href="https://twitter.com/setback" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className='header-social-button' icon={['fab', 'twitter']} /></a>
+                        <a href="https://www.facebook.com/riddlebit" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className='header-social-button' icon={['fab', 'facebook']} /></a>
                     </div>
                 </div>
                 <div>
