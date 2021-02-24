@@ -25,7 +25,7 @@ const ProjectCard = ({title, description, size, classified, status, imageURL, li
     }
 
     return (
-        <a href={link} target="_blank" className={classes.join(' ')} style={style}>
+        <a href={link} target="_blank" rel="noopener noreferrer" className={classes.join(' ')} style={style}>
             <div className='project-card-content'>
                 <h2>{title}</h2>
                 <span className={classified ? 'project-classified' : ''} >{description}</span>

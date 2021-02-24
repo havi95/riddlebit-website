@@ -6,7 +6,7 @@ const Partners = () => (
         <div className='content-section content-width-md partners-content'>
             <h1>Partners</h1>
             <div className='partner-cards'>
-                <a href="https://work-work.no" target="_blank">
+                <a href="https://work-work.no" target="_blank" rel="noopener noreferrer">
                 <img 
                     className="partner-image"
                     src="https://i.imgur.com/NB71jSt.png"
